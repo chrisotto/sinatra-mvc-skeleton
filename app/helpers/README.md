@@ -2,8 +2,9 @@
 
 ## Basics
 
-Helpers are methods that are defined in a central place but which can be used inside of your route handlers (controllers) and view templates.  An example of a helper is shown in
-`app/views/index.erb` inside where we use the `em` helper.
+Helpers are methods that are defined in a central place but which can be used
+inside of your route handlers (controllers) and view templates.  An example of
+a helper is shown in `app/views/index.erb` inside where we use the `em` helper.
 
 ## Adding helpers
 
