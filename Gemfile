@@ -7,8 +7,8 @@ gem 'pg'
 gem 'sinatra'
 gem 'sinatra-contrib'
 
-gem 'activesupport'
-gem 'activerecord'
+gem 'activesupport', '~>4.2.0'
+gem 'activerecord', '~>4.2.0'
 gem 'bcrypt'
 
 gem 'rake'
@@ -19,7 +19,7 @@ group :test do
   gem 'database_cleaner', '~> 1.4.1'
   gem 'shoulda-matchers'
   gem 'rack-test'
-  gem 'rspec'
+  gem 'rspec', '~>3.0'
   gem 'capybara'
 end
 
